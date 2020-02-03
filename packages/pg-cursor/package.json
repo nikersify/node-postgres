@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Query cursor extension for node-postgres",
   "main": "index.js",
   "directories": {
