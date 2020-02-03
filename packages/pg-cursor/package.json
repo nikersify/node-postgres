@@ -1,5 +1,8 @@
 {
-  "name": "pg-cursor",
+  "name": "@nikersify/pg-cursor",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "2.1.5",
   "description": "Query cursor extension for node-postgres",
   "main": "index.js",
@@ -16,12 +19,14 @@
   },
   "author": "Brian M. Carlson",
   "license": "MIT",
+  "dependencies": {
+    "pg": "^7.18.1"
+  },
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
     "mocha": "^6.2.2",
-    "pg": "^7.18.1",
     "prettier": "^1.18.2"
   },
   "prettier": {
